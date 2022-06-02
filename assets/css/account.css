@@ -1,0 +1,47 @@
+.empty-list
+{
+    text-align: center;
+    justify-content: space-around;
+}
+.empty-list a{
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: #999595;
+    padding: 0 40px;
+    padding-top: 14px;
+    height: 45px;
+    text-transform: uppercase;
+
+    text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+ 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+ 
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+ 
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+
+}
+
+.empty-list a:hover
+{
+    background: rgb(83, 83, 83);
+}
+.empty-list h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.empty-list h2{
+    font-size: 13px;
+}
